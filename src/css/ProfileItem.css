@@ -1,0 +1,10 @@
+.profile-item {
+    margin-bottom: 12px;
+    color: var(--dark-color);
+}
+
+ .profile-item span{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold
+}

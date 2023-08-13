@@ -1,0 +1,55 @@
+.portfolio {
+    background: #f8f8f8;
+    padding: 20px 0 60px 0; 
+}
+
+
+.portfolio .portfolio-list {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0
+}
+
+.portfolio .portfolio-list .portfolio-item {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.portfolio .portfolio-list .portfolio-item.activePorto {
+    background: var(--primary-color);
+    color: #fff
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box div {
+    width: 25%;
+}
+
+.box div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width:575px) {
+    .portfolio .portfolio-list .portfolio-item {
+        display: block;
+        margin: auto
+    }
+    
+    .box div {
+        width: 100%;
+    }
+}
+
+@media (min-width:576px) and (max-width : 768px ){
+    .box div {
+        width: 50%;
+    }
+}

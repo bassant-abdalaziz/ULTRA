@@ -1,0 +1,15 @@
+.btn {
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    width: 150px;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #eb5424;
+    border: 1px solid var(--primary-color)
+}
