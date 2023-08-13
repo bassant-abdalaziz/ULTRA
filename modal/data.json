@@ -1,0 +1,105 @@
+
+{
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "faChain",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 2,
+            "icon_name": "faBolt",
+            "title": "Web Development",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 3,
+            "icon_name": "faTachometer",
+            "title": "WordPress",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "/images/Portfolio/portfolio-img1.jpg",
+            "category": "HTML"
+        },
+        {
+            "id":2,
+            "image": "/images/Portfolio/portfolio-img2.jpg",
+            "category": "Mobile"
+        },
+        {
+            "id":3,
+            "image": "/images/Portfolio/portfolio-img3.jpg",
+            "category": "Photoshop"
+        },
+        {
+            "id":4,
+            "image": "/images/Portfolio/portfolio-img4.jpg",
+            "category": "HTML"
+        },
+        {
+            "id":5,
+            "image": "/images/Portfolio/portfolio-img5.jpg",
+            "category": "Mobile"
+        },
+        {
+            "id":6,
+            "image": "/images/Portfolio/portfolio-img6.jpg",
+            "category": "Wordpress"
+        },
+        {
+            "id":7,
+            "image": "/images/Portfolio/portfolio-img4.jpg",
+            "category": "Photoshop"
+        },
+        {
+            "id":8,
+            "image": "/images/Portfolio/portfolio-img8.jpg",
+            "category": "Wordpress"
+        }
+    ] ,
+
+    "skills":[
+        {
+            "id":1,
+            "title": "Bootstrap",
+            "perc" :"100%"        
+        },
+        {
+            "id":2,
+            "title": "Javascript",
+            "perc" :"90%"
+        },
+        {
+            "id":3,
+            "title": "Photoshop",
+            "perc" :"80%"
+        }
+
+    ],
+    "social" : [
+        {
+            "id": 1,
+            "icon" : "faFacebook",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+        },
+        {
+            "id": 2,
+            "icon" : "faTwitter",
+            "title" : "Tweet Me on",
+            "body" : "Social twitter"
+        },
+        {
+            "id": 3,
+            "icon" : "faPinterest",
+            "title" : "Pin Me on",
+            "body" : "Social Pinterest"
+        }
+    ] 
+}
